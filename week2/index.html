@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,700;1,500;1,600&display=swap"
+    />
+    <script>
+      function submit(){
+        alert("BOOKING CONFIRMED");
+      }
+    </script>
+  </head>
+  <body>
+    <div class="desktop-1">
+      <img class="background-icon" alt="" src="./public/background.svg" />
+
+      <div class="booking" id="bk">
+        <div class="seat">
+          <div class="seat-child"></div>
+          <i class="people">PEOPLE</i>
+          <div class="seat-item"></div>
+        </div>
+        <div class="bookbtn">
+          <div class="bookbtn-child"></div>
+          <i class="book">BOOK</i>
+        </div>
+        <div class="date-textbox">
+          <div class="date-textbox-child"></div>
+          <i class="date">DATE</i>
+          <div class="date-textbox-item"></div>
+        </div>
+        <div class="time-textbox">
+          <div class="date-textbox-child"></div>
+          <i class="time">TIME</i>
+          <div class="date-textbox-item"></div>
+        </div>
+        <div class="number-textbox">
+          <div class="number-textbox-child"></div>
+          <i class="number">NUMBER</i>
+          <div class="number-textbox-item"></div>
+        </div>
+        <div class="name-textbox">
+          <div class="name-textbox-child"></div>
+          <i class="name">NAME</i>
+          <div class="name-textbox-item"></div>
+        </div>
+        <i class="book-your-table">BOOK YOUR TABLE</i>
+      </div>
+      <div class="popular-dishes" id="pd">
+        <i class="popular-dishes1">POPULAR DISHES</i>
+        <div class="palak-paneer">
+          <img
+            class="biriyani-1-icon"
+            alt=""
+            src="./public/biriyani-1@2x.png"
+          />
+
+          <i class="palak-paneer1">PALAK PANEER</i>
+          <i class="creamy-spinach-curry">
+            Creamy spinach curry with chunks of paneer, a nutritious and
+            flavorful vegetarian dish.</i
+          >
+        </div>
+        <div class="paneer-tikka">
+          <img
+            class="biriyani-1-icon1"
+            alt=""
+            src="./public/biriyani-11@2x.png"
+          />
+
+          <i class="paneer-tikka1">PANEER TIKKA</i>
+          <i class="skewered-and-grilled"
+            >Skewered and grilled cubes of marinated cottage cheese, bursting
+            with smoky flavors.</i
+          >
+        </div>
+        <div class="butter-chicken">
+          <img
+            class="butter-chicken-1"
+            alt=""
+            src="./public/butter-chicken-1@2x.png"
+          />
+
+          <i class="butter-chicken1">BUTTER CHICKEN</i>
+          <i class="skewered-and-grilled"
+            >Creamy tomato-based curry with succulent pieces of tandoori
+            chicken, a rich and indulgent delight.</i
+          >
+        </div>
+        <div class="biriyani">
+          <img
+            class="biriyani-1-icon2"
+            alt=""
+            src="./public/biriyani-12@2x.png"
+          />
+
+          <i class="biriyani1">BIRIYANI</i>
+          <i class="fragrant-rice-dish"
+            >Fragrant rice dish cooked with aromatic spices and tender meat or
+            vegetables, a true Indian culinary masterpiece.</i
+          >
+        </div>
+      </div>
+      <div class="intro" id="in">
+        <img
+          class="restaurant-img-1"
+          alt=""
+          src="./public/restaurant-img-1@2x.png"
+        />
+
+        <i class="savor-every-bite">Savor Every Bite at Eat Up</i>
+        <i class="where-flavor-meets"> Where Flavor Meets Elegance</i>
+      </div>
+      <div class="nav-bar">
+        <b class="eat-up">Eat Up</b>
+        <div class="nav">
+          <b class="home"><a href="#in">HOME</a></b>
+          <b class="menu"><a href="#pd">MENU</a></b>
+          <b class="about"><a href="#bk">BOOKING</a></b>
+          <b class="about"><a href="#em">ABOUT</a></b>
+        </div>
+      </div>
+      <i class="address-vinayaknagar-bengalu"
+        >ADDRESS: baglur Cross, Bengaluru</i
+      >
+      <i class="e-mail-eatupgmailcom" id="em">E-MAIL: sbasappa1205@gmail.com</i>
+    </div>
+    <input type="text" id="nm">
+    <input  type="text" id="ema">
+    <input type="text" id="peop">
+    <input type="time" id="tim">
+    <input type="date" id="dte">
+    <input type="button" id="btn" onclick="submit()">
+  </body>
+</html>
