@@ -1,0 +1,521 @@
+.background-icon,
+.seat-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2107px;
+  height: 2437px;
+}
+.seat-child {
+  border-radius: var(--br-31xl);
+  background-color: var(--color-midnightblue);
+  width: 219px;
+  height: 143px;
+}
+.people {
+  position: absolute;
+  top: 24.33px;
+  left: 52px;
+  font-weight: 500;
+}
+.seat-item {
+  position: absolute;
+  top: 112px;
+  left: 33.5px;
+  border-top: 1px solid var(--color-darkorchid-200);
+  box-sizing: border-box;
+  width: 151px;
+  height: 1px;
+}
+.bookbtn-child,
+.seat {
+  position: absolute;
+  top: 340px;
+  left: 844.11px;
+  width: 219px;
+  height: 143px;
+}
+.bookbtn-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-midnightblue);
+  width: 256px;
+  height: 106px;
+}
+.book {
+  position: absolute;
+  top: 35px;
+  left: 85px;
+  font-weight: 500;
+}
+.bookbtn,
+.date-textbox-child {
+  position: absolute;
+  top: 657px;
+  left: 391px;
+  width: 256px;
+  height: 106px;
+}
+.date-textbox-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-midnightblue);
+  width: 499.77px;
+}
+.date {
+  position: absolute;
+  top: 24px;
+  left: 45.78px;
+  font-weight: 500;
+}
+.date-textbox-item {
+  position: absolute;
+  top: 73.5px;
+  left: 131.61px;
+  border-top: 1px solid var(--color-darkorchid-200);
+  box-sizing: border-box;
+  width: 312.58px;
+  height: 1px;
+}
+.date-textbox {
+  position: absolute;
+  top: 503px;
+  left: 0.11px;
+  width: 499.77px;
+  height: 106px;
+}
+.time {
+  position: absolute;
+  top: 24px;
+  left: 47.78px;
+  font-weight: 500;
+}
+.number-textbox-child,
+.time-textbox {
+  position: absolute;
+  top: 504px;
+  left: 563.11px;
+  width: 499.77px;
+  height: 106px;
+}
+.number-textbox-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-midnightblue);
+  width: 811px;
+}
+.number {
+  position: absolute;
+  top: 35px;
+  left: 23.74px;
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  width: 133.28px;
+}
+.number-textbox-item {
+  position: absolute;
+  top: 73.5px;
+  left: 213.88px;
+  border-top: 1px solid rgba(140, 50, 178, 0.5);
+  box-sizing: border-box;
+  width: 506.61px;
+  height: 1px;
+}
+.name-textbox-child,
+.number-textbox {
+  position: absolute;
+  top: 350px;
+  left: 0.11px;
+  width: 811px;
+  height: 106px;
+}
+.name-textbox-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-midnightblue);
+  width: 1063.11px;
+}
+.name {
+  position: absolute;
+  top: 35px;
+  left: 72.41px;
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  width: 90.62px;
+}
+.name-textbox-item {
+  position: absolute;
+  top: 73.5px;
+  left: 280.52px;
+  border-top: 1px solid var(--color-darkorchid-200);
+  box-sizing: border-box;
+  width: 663.79px;
+  height: 1px;
+}
+.book-your-table,
+.name-textbox {
+  position: absolute;
+  top: 213px;
+  left: 0;
+  width: 1063.11px;
+  height: 106px;
+}
+.book-your-table {
+  top: 0;
+  left: 233px;
+  font-size: var(--headding-size);
+  display: flex;
+  font-weight: 600;
+  color: var(--color-white);
+  align-items: center;
+  justify-content: center;
+  width: 536px;
+  height: 120px;
+}
+.booking {
+  position: absolute;
+  top: 1874px;
+  left: 188px;
+  width: 1063.11px;
+  height: 763px;
+  color: var(--color-gray-100);
+}
+.popular-dishes1 {
+  position: absolute;
+  top: 0;
+  right: 179px;
+  font-size: var(--headding-size);
+  font-weight: 600;
+}
+.biriyani-1-icon {
+  position: absolute;
+  top: 7px;
+  right: 601.19px;
+  width: 191.81px;
+  height: 150px;
+  object-fit: cover;
+}
+.creamy-spinach-curry,
+.palak-paneer1 {
+  position: absolute;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+.palak-paneer1 {
+  top: calc(50% - 78.5px);
+  right: 297px;
+  width: 247px;
+  height: 38px;
+}
+.creamy-spinach-curry {
+  top: 60.38px;
+  right: 0;
+  font-size: var(--discription-size);
+  width: 593.24px;
+  height: 50.24px;
+}
+.palak-paneer {
+  position: absolute;
+  top: 757px;
+  right: 9px;
+  width: 793px;
+  height: 157px;
+}
+.biriyani-1-icon1 {
+  position: absolute;
+  top: 0;
+  right: 601.19px;
+  width: 191.81px;
+  height: 150px;
+  object-fit: cover;
+}
+.paneer-tikka1,
+.skewered-and-grilled {
+  position: absolute;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+.paneer-tikka1 {
+  top: calc(50% - 75px);
+  right: 306px;
+  width: 247px;
+  height: 38px;
+}
+.skewered-and-grilled {
+  top: 53.38px;
+  right: 0;
+  font-size: var(--discription-size);
+  width: 593.24px;
+  height: 50.24px;
+}
+.butter-chicken-1,
+.paneer-tikka {
+  position: absolute;
+  top: 566px;
+  right: 0;
+  width: 793px;
+  height: 150px;
+}
+.butter-chicken-1 {
+  top: 0;
+  right: 593px;
+  width: 200px;
+  object-fit: cover;
+}
+.butter-chicken1 {
+  position: absolute;
+  top: calc(50% - 75px);
+  right: 262px;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  width: 291px;
+  height: 38px;
+}
+.biriyani-1-icon2,
+.butter-chicken {
+  position: absolute;
+  top: 368px;
+  right: 0;
+  width: 793px;
+  height: 150px;
+}
+.biriyani-1-icon2 {
+  top: 8px;
+  right: 601.19px;
+  width: 191.81px;
+  object-fit: cover;
+}
+.biriyani1,
+.fragrant-rice-dish {
+  position: absolute;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+.biriyani1 {
+  top: calc(50% - 79px);
+  right: 416.52px;
+  width: 127.48px;
+  height: 37.68px;
+}
+.fragrant-rice-dish {
+  top: 61.38px;
+  right: 0;
+  font-size: var(--discription-size);
+  width: 593.24px;
+  height: 50.24px;
+}
+.biriyani,
+.popular-dishes {
+  position: absolute;
+  top: 162px;
+  right: 9px;
+  width: 793px;
+  height: 158px;
+}
+.popular-dishes {
+  top: 794px;
+  right: 319px;
+  width: 802px;
+  height: 914px;
+}
+.restaurant-img-1 {
+  position: absolute;
+  top: 0;
+  left: 667px;
+  border-radius: var(--br-11xl);
+  width: 372px;
+  height: 454px;
+  object-fit: cover;
+}
+.savor-every-bite {
+  position: absolute;
+  top: 139px;
+  left: 0;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  width: 631px;
+  height: 88px;
+}
+.where-flavor-meets {
+  position: absolute;
+  top: 227px;
+  left: 96px;
+  font-size: var(--subtitle-size);
+  font-weight: 600;
+}
+.intro {
+  position: absolute;
+  top: 211px;
+  left: 200px;
+  width: 1039px;
+  height: 454px;
+  font-size: var(--headding-size);
+}
+.eat-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 246px;
+}
+.eat-up,
+.home,
+.menu {
+  position: relative;
+  height: 71px;
+  flex-shrink: 0;
+  -webkit-text-stroke: 1px #000;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+}
+.menu {
+  width: 175px;
+}
+.about,
+.menu,
+.nav,
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about {
+  position: relative;
+  width: 171px;
+  height: 71px;
+  flex-shrink: 0;
+}
+.nav,
+.nav-bar {
+  flex-direction: row;
+}
+.nav {
+  padding: 0 20px;
+  gap: 20px;
+  font-size: var(--discription-size);
+}
+.nav-bar {
+  position: absolute;
+  top: 61px;
+  left: 148px;
+  border-radius: var(--br-11xl);
+  width: 1133px;
+  padding: 3px 0;
+  box-sizing: border-box;
+  gap: 40px;
+  font-size: 40px;
+}
+.address-vinayaknagar-bengalu,
+.e-mail-eatupgmailcom {
+  position: absolute;
+  top: 2756px;
+  left: 99px;
+  font-size: var(--discription-size);
+  font-weight: 500;
+}
+.e-mail-eatupgmailcom {
+  top: 2721px;
+  left: 105px;
+}
+.desktop-1 {
+  position: relative;
+  background-color: #190621;
+  width: 100%;
+  height: 2855px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--subtitle-size);
+  color: var(--color-white);
+  font-family: var(--subtitle);
+}
+
+#nm{
+  position: absolute;
+  top:2095px;
+  left:467px;
+  height:60px;
+  width:656px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+#ema{
+  position: absolute;
+  top:2236px;
+  left:367px;
+  height:60px;
+  width:540px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+#dte{
+  position: absolute;
+  top:2390px;
+  left:317px;
+  height:60px;
+  width:310px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+#peop{
+  position: absolute;
+  top:2268px;
+  left:1065px;
+  height:50px;
+  width:145px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+#tim{
+  position: absolute;
+  top:2390px;
+  left:884px;
+  height:60px;
+  width:307px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+#btn{
+  position: absolute;
+  top:2550px;
+  left:600px;
+  height:60px;
+  width:200px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+}
