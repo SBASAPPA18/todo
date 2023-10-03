@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+}
+
+#customer-list {
+    background-color: #f2f2f2;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+#customer-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #007BFF;
+    text-align: center;
+    padding: 10px 0;
+}
+
+button {
+    background-color: #fff;
+    color: #007BFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#add-customer-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+#add-customer-form h2 {
+    color: #007BFF;
+}
+
+#customer-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#customer-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+}
+
+#delete-customer {
+    color: white;
+    background-color: #007BFF;
+    font-weight: bolder;
+}
+#add-customer {
+    font-weight: bolder;
+}
