@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(bg1.jpg);
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#topics, #discussion {
+    width: 45%;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    background-color: #ff79793c;
+    border-radius: 40px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    background-color: #e48c8c83;
+}
+
+#comment-form {
+    margin-top: 20px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #e48c8c83;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+textarea{
+    height:30px;
+}
+p{
+    background-color: #e48c8c83;
+    padding: 10px;
+}
